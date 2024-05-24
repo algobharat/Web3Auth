@@ -16,6 +16,7 @@ import "./App.css";
 
 const clientId =
   "BPLBWDRubxD8LfmkhkQpNbSgyLPYkUUIHVYqO_C3TeseZoiqaTc_ijUtCZHjM4f7DGakzaIQAMfH-KpPM80p1JA";
+  //Please replace with your own id
 
 function App() {
   const [web3auth, setWeb3auth] = useState<Web3AuthNoModal | null>(null);
